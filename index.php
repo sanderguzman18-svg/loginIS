@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
 <body>
 
     <div class="login-container">
-        <h2>Inicie Sesión</h2>
+        <h2>Registre un usuario</h2>
         <form method="POST">
             <div class="input-group">
                 <input type="text" name="usuario" placeholder="Ingrese su usuario" required>
@@ -30,7 +30,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
             <div class="input-group">
                 <input type="password" name="password" placeholder="Ingrese su contraseña" required>
             </div>
-            <button type="submit">Iniciar Sesioń</button>
+            <button type="submit">Registrar</button>
         </form>
     </div>
 
